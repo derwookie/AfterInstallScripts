@@ -1,0 +1,16 @@
+[Desktop Entry]
+Categories=Qt;KDE;System;TerminalEmulator;
+Comment[de_DE]=Ein Aufklapp-Terminalemulator basierend auf der KDE-Konsole.
+Comment=A drop-down terminal emulator based on KDE Konsole technology.
+DBusActivatable=true
+Exec=yakuake
+GenericName[de_DE]=Aufklapp-Terminal
+GenericName=Drop-down Terminal
+Icon=yakuake
+Name[de_DE]=Yakuake
+Name=Yakuake
+Terminal=false
+Type=Application
+X-DBUS-ServiceName=org.kde.yakuake
+X-DBUS-StartupType=Unique
+X-KDE-StartupNotify=false

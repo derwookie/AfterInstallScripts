@@ -1,0 +1,15 @@
+alias ll='exa -lah'
+alias now='date +%Y-%m-%d@%H:%M:%S'
+alias neual='nano /home/marcel/.bashrc ; source /home/marcel/.bashrc'
+alias upmir='sudo mv /etc/pacman.d/mirrorlist /home/marcel/NAS/Backups/mirrorlists/mirrorlist_new ; sudo mv /home/marcel/NAS/Backups/mirrorlists/mirrorlist_new /home/marcel/NAS/Backups/mirrorlists/mirrorlist_$(now); sudo reflector --latest 50 --sort rate --verbose --save /etc/pacman.d/mirrorlist'
+
+alias upall='yay -Syyyuuu --noconfirm'
+alias upallall='upmir && upall'
+alias sd='sudo shutdown now'
+alias rb='sudo reboot'
+alias upallsd='upall ; sd'
+alias upallrb='upall ; rb'
+alias upallallsd='upallall ; sd'
+alias upallallrb='upallall ; rb'
+
+neofetch | lolcat
